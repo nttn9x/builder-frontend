@@ -1,0 +1,17 @@
+%display-column {
+  display: flex;
+  flex-direction: column;
+}
+
+%display-row {
+  display: flex;
+  flex-direction: row;
+}
+
+%justify-content-center {
+  justify-content: center;
+}
+
+%align-items-center {
+  align-items: center;
+}
