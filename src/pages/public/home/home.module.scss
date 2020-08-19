@@ -1,0 +1,24 @@
+@import "src/styles/base/background-color";
+
+.body {
+  width: 100%;
+  height: 100%;
+  @include background-default(
+    url(../../styles/images/modules/home/banner.png),
+    no-repeat,
+    top,
+    100% 80%
+  );
+}
+
+.banner {
+  padding-top: 40px;
+
+  &--small-screen {
+    padding-top: 20px;
+  }
+}
+
+.banner-right--small-screen {
+  margin-top: 60px;
+}
